@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>
+    <br><br>
+    <hr>
+    <form>
+        <layout for="fname">Full Name: </layout>
+        <input type="text" id="fname" name="fname"><br><br>
+        <layout for="email">Email: </layout>
+        <input type="email" id="email" name="email"><br><br>
+        <layout for="password">Password: </layout>
+        <input type="password" id="password" name="password"><br><br>
+        <layout for="Gender">Gender</layout>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="Female">Female</label><br>
+        <input type="radio" id="Other" name="gender" value="Other">
+        <label for="Other">Other</label><br><br>
+        <layout for="course">Course: </layout>
+        <select id="course" name="course">
+            <option value="bca">BCA</option>
+            <option value="bsc">BSc</option>
+            <option value="bcom">BCom</option>
+            <option value="ba">BA</option>
+        </select><br><br>
+        <layout for="address">Address: </layout><br>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">      
+    </form>
+    <br><br>
+    <hr>
+    <p align="center">© 2025 Student Registratio Panel</p>
+</body>
+</html>
