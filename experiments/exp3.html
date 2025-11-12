@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+        }
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table align="center">
+        <td>
+             <table style="width: 100%;" align="center">
+            <caption>College time-table: CSE Department</caption>
+            <tr>
+                <th>Day</th>
+                <th>9:00 - 10:00</th>
+                <th>10:00 - 11:00</th>
+                <th>11:00 - 12:00</th>
+                <th>12:00 - 1:00</th>
+                <th>1:00 - 2:00</th>
+                <th>2:00 - 3:00</th>
+                <th>3:00 - 4:00</th>
+            </tr>
+            <tr>
+                <td><b>Monday</b></td>
+                <td rowspan="3">Mathematics</td>
+                <td>English</td>
+                <td rowspan="8">Physics</td>
+                <td rowspan="8">Break</td>
+                <td colspan="2">computer lab</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <td><b>Tuesday</b></td>
+                <td>C programming</td>
+                <td colspan="2">Electronics Lab</td>
+                <td>Library</td>
+            </tr>
+            <tr rowspan="4">
+                <td><b>Wednesday</b></td>
+                <td>English</td>
+                <td>Computer Networks</td>
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <th colspan="2">Lab details</th>
+                        </tr>
+                        <tr>
+                            <td>Lab A</td>
+                            <td>DBMS Lab</td>
+                        </tr>
+                        <tr>
+                            <td>Lab B</td>
+                            <td>OS Lab</td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+            <tr>
+                <td><b>Thursday</b></td>
+                <td colspan="2">Workshop</td>
+                <td>Mathematics</td>
+                <td>English</td>
+                <td>Seminar</td>
+            </tr>
+            <tr>
+                <td><b>Friday</b></td>
+                <td>Computer networks</td>
+                <td>Englsih</td>
+                <td colspan="3">Project work</td>
+            </tr>
+        </table>
+        </td>
+    </table>
+</body>
+</html>
