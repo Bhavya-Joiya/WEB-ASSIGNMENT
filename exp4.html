@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 4</title>
+</head>
+<body align = "center">
+    <h1>Hotel Room Booking Form</h1>
+    <form type = "post" action="/action">
+        <label for="name">Full Name: 
+            <input type="text" id = "name" name = "name" placeholder = "Enter full name" required>
+        </label>
+        <br><br>
+        <label for="email">Email:
+            <input type="email" id = "email" name = "email" placeholder = "Enter Email-id" required>
+        </label>
+        <br><br>
+        <label for="phone">Phone:
+            <input type="tel" id = "phone" name = "phone" placeholder = "Enter mobile number" required>
+        </label>
+        <br><br>
+        <label for="in-date">Check in date</label>
+        <input type="date" name = "in - date" id = "in - date">
+        <br><br>
+        <label for="out-date">Check out date</label>
+        <input type="date" name = "out - date" id = "out - date">
+        <br><br>
+        <label for="room">Room type: </label>
+        <select name="room" id="room">
+            <option value="single">Single room</option>
+            <option value="twin">Twin room</option>
+            <option value="double">Double room</option>
+            <option value="triple">Triple room</option>
+            <option value="quad">Quad room</option>
+        </select>
+        <br><br>
+
+        <label for="guest_no.">Number of Guests:
+            <input type="number" id = "guest_no." name = "guest_no.">
+        </label>
+        <br><br>
+
+        <label for="mss">Special requests: <br>
+            <textarea name="mss" id="mss" cols = "50" rows = "10" placeholder = "Any special request we can help you with please mention it here "></textarea>
+        </label>
+        <br><br>
+        <button type = "submit">Book Now</button>
+        <button type = "reset">Reset</button>
+    </form>
+</body>
+</html>
