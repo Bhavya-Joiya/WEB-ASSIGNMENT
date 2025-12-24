@@ -46,7 +46,7 @@ header {
 
 .product-card {
     display: inline-block;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(216, 173, 173);
     border: 2px solid rgb(180, 180, 180);
     border-radius: 10px;
     margin: 15px;
