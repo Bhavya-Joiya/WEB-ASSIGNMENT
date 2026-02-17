@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .gallery img {
+        width: 45%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .gallery img {
+        width: 100%;
+    }
+}
